@@ -23,3 +23,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'Controller@index')->name('home');
+Route::get('/poslist', 'Controller@getpos')->name('polist');
+Route::get('/createpo', 'Controller@createpo')->name('createpo');

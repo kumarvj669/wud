@@ -10,4 +10,11 @@ class Controller extends BaseController
     public function index(){
         return view('index');
     }
+    public function getpos(){
+        return 'pos list';
+    }
+    public function createpo(){
+        return 'Create po';
+    }
+
 }
