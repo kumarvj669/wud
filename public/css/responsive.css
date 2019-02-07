@@ -1,0 +1,92 @@
+
+@media screen and (max-width:1299px){
+.container{
+	width:100%;
+}
+}
+@media screen and (max-width:991px){
+.login-container {
+	transform: translate(-50%, -50%);
+}
+.navigation ul li a {
+	font-size: 12px;
+}
+.sale-table-main{
+	overflow:auto;
+}
+.sale-table {
+	width: 800px;
+	max-width: inherit;
+	border-collapse: collapse;
+	margin: 0 0px;
+}
+}
+
+@media screen and (max-width:767px){
+.main-container {
+	padding: 50px 0;
+}
+.navigation {
+  border-top: none;
+  margin: 0px 0 0;
+  float:none;
+}
+h1.mobile-menu {
+  margin: 0px 0 0;
+  color:#fff;
+  display:block;
+  font-size:20px !important;
+  padding:10px 15px;
+  text-align:right;
+  cursor:pointer;
+  text-transform:uppercase;
+  font-weight:700;
+  background: linear-gradient(21deg, #b73281, #6e58e1);
+	background: -moz-linear-gradient(21deg, #b73281, #6e58e1);
+	background: -webkit-linear-gradient(21deg, #b73281, #6e58e1);
+	background: -o-linear-gradient(21deg, #b73281, #6e58e1);
+}
+.mobile-menu span{
+	float:left;
+}
+.navigation ul {
+  display: none;
+  list-style: outside none none;
+  margin: 0;
+  position: static;
+  width: 100%;
+  z-index: 9999;
+  padding:20px 15px;
+  background:#f4f4f4;
+}
+.navigation ul li a {
+    font-size: 16px;
+}
+.logo {
+	margin: 0px 0 20px 0;
+	padding: 0;
+	display: block;
+	z-index: 1;
+	text-align: center;
+}
+.right-sec h1 {
+	font-size: 50px;
+	padding: 24px 0 20px 0;
+}
+.account-sec {
+	margin-top: 30px;
+}
+
+.account-right{
+	margin-top:0;
+}
+}
+@media screen and (max-width:630px){
+
+}
+
+@media screen and (max-width:479px){
+.table-main {
+	width: 100%;
+}
+}

@@ -1,0 +1,5 @@
+[06-Feb-2019 17:40:12 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/i72kcm3v4m12/public_html/wud_api/app/Http/Controllers/Controller.php on line 28
+[06-Feb-2019 17:52:23 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/i72kcm3v4m12/public_html/wud_api/app/Http/Controllers/Controller.php on line 28
+[06-Feb-2019 17:55:56 UTC] PHP Fatal error:  Cannot declare class CreateUsersTable, because the name is already in use in /home/i72kcm3v4m12/public_html/wud_api/database/migrations/2019_02_06_174909_create_users_table.php on line 31
+[07-Feb-2019 12:20:38 UTC] PHP Fatal error:  Class 'App\Authenticatable' not found in /home/i72kcm3v4m12/public_html/wud_api/app/Admins.php on line 7
+[07-Feb-2019 12:21:27 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\Admis' not found in /home/i72kcm3v4m12/public_html/wud_api/app/Admins.php on line 7
