@@ -15,7 +15,7 @@ class Admins extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'username','email', 'passcode'
+        'username', 'passcode'
     ];
 
     /**
@@ -29,6 +29,6 @@ class Admins extends Authenticatable
 
     public function getAuthPassword()
     {
-        return $this->passcode;
+        return $this->password;
     }
 }
