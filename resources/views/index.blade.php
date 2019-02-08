@@ -4,19 +4,7 @@
 <div class="main-container">
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
-                <a class="logo" href="login.html"><img src="{{ Url('public/images/logo.png') }}"  alt="logo"></a>
-                <div class="navigation">
-                    <h1 class="mobile-menu"><span><i class="fa fa-bars"></i></span>Menu</h1>
-                    <ul class="nav-sub-menu">
-                        <li><a href="{{url('home')}}">sales</a></li>
-                        <li><a href="{{url('poslist')}}">Pos List</a></li>
-                        <li><a href="{{url('createpo')}}">Add Pos</a></li>
-                        <li><a href="{{url('resetpassword')}}">Change Password</a></li>
-                        <li><a href="{{url('logout')}}">Logout</a></li>
-                    </ul>
-                </div>
-            </div>
+            @include('layouts.sidebar')
 
             <div class="col-sm-9">
                 <div class="right-sec">

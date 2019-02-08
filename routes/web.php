@@ -25,3 +25,6 @@ Auth::routes();
 Route::get('/home', 'Controller@index')->name('home');
 Route::get('/poslist', 'Controller@getpos')->name('polist');
 Route::get('/createpo', 'Controller@createpo')->name('createpo');
+Route::post('/addpo', 'Controller@addpo')->name('addpo');
+Route::get('/changepassword', 'Controller@changepasswordform')->name('changepassword');
+Route::post('/changepassword', 'Controller@changepassword')->name('changepassword');
